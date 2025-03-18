@@ -53,43 +53,43 @@ Use Postman or any API testing tool to test all defined API endpoints.
 
 1. Authentication APIs
 
-# POST /api/auth/register/ 
+POST /api/auth/register/ 
 
-# POST /api/auth/login/
+POST /api/auth/login/
 
 2. Patient Management APIs
 
-# POST /api/patients/ 
+POST /api/patients/ 
 
-# GET /api/patients/ 
+GET /api/patients/ 
 
-# GET /api/patients/<id>/
+GET /api/patients/<id>/
 
-# PUT /api/patients/<id>/ 
+PUT /api/patients/<id>/ 
 
-# DELETE /api/patients/<id>/ 
+DELETE /api/patients/<id>/ 
 
 3. Doctor Management APIs
 
 POST /api/doctors/ - Add a new doctor (Authenticated users only).
 
-# GET /api/doctors/ 
+GET /api/doctors/ 
 
-# GET /api/doctors/<id>/ 
+GET /api/doctors/<id>/ 
 
-# PUT /api/doctors/<id>/ 
+PUT /api/doctors/<id>/ 
 
-# DELETE /api/doctors/<id>/ 
+DELETE /api/doctors/<id>/ 
 
 4. Patient-Doctor Mapping APIs
 
 POST /api/mappings/ 
 
-# GET /api/mappings/ 
+GET /api/mappings/ 
 
-# GET /api/mappings/<patient_id>/ 
+GET /api/mappings/<patient_id>/ 
 
-# DELETE /api/mappings/<id>/ 
+DELETE /api/mappings/<id>/ 
 
 ----
 
